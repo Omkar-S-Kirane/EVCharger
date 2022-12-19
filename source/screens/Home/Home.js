@@ -1,11 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import MapView from 'react-native-maps';
 import styles from './Styles'
 
-export const Home=()=>{
+export default Home = () => {
   return (
     <View>
-      <Text>Home</Text>
+      <Text></Text>
     </View>
-  )
-}
+  );
+};
